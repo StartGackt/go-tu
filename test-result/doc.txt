@@ -1,0 +1,2 @@
+go run ./test-result/the-chrono-prime-filter
+go run ./test-result/the-quantum-core
