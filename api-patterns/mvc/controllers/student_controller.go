@@ -20,9 +20,10 @@ func NewStudentController(m *models.StudentModel) *StudentController {
 	return &StudentController{model: m}
 }
 
+
 type studentRequest struct {
-	Name  string `json:"name"`
-	Score int    `json:"score"`
+	Name  string `json:"names"`
+	Score int    `json:"scores"`
 }
 
 // Index  GET /students
